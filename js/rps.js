@@ -1,4 +1,4 @@
-var userChoice = prompt("Do you choose Rock, Paper or S cissors?");
+var userChoice = prompt("Do you choose Rock, Paper or Scissors?");
 var computerChoice = Math.random();
 if (computerChoice < 0.34) {
 	computerChoice = "rock";
